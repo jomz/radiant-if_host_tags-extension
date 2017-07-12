@@ -1,5 +1,5 @@
 require File.dirname(__FILE__) + '/lib/cache_by_host.rb'
-require_dependency 'application'
+require_dependency 'application_controller'
 
 class IfHostTagsExtension < Radiant::Extension
   version "0.1"
